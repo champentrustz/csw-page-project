@@ -74,6 +74,7 @@ $date_day = date("Y-m-d");
             <th  class="text-center " style="font-weight: bold;">ชั้น</th>
             <th  class="text-center" style="font-weight: bold;">คะแนนที่เหลือ</th>
             <th  class="text-center "><span class="icon fa fa-cog"></span></th>
+            <th  class="text-center "><span class="icon fa fa-cog"></span></th>
 
         </tr>
         </thead>
@@ -110,7 +111,7 @@ $date_day = date("Y-m-d");
                     <td class="text-center"><?php print $i ?></td>
                     <td class="text-center"><?php print $row_student['tb_student_code']?></td>
                     <td class="text-center"><img class="zoom" src="../file_student/small/<?php print $row_student['tb_student_code']?>.jpg" style="width:60px;height:78px"></td>
-                    <td><?php print $row_student['tb_student_name']?> <?php print $row_student['tb_student_sname']?></td>
+                    <td width="20%"><?php print $row_student['tb_student_name']?> <?php print $row_student['tb_student_sname']?></td>
                     <td class="text-center"><?php print $row_room['tb_room_name'] ?></td>
                     <td class="text-center"><?php print $real_score?></td>
 
@@ -121,6 +122,10 @@ $date_day = date("Y-m-d");
                             <input type="hidden" value="<?php print $year?>" name="year">
                         <button class="btn btn-info btn-sm show-font" data-provide="tooltip" title="รายละเอียด" type="submit">รายละเอียด</button>
                         </form>
+                    </td>
+
+                    <td class="text-center">
+                        <button class="btn btn-success btn-sm show-font" data-provide="tooltip" title="รายละเอียด" type="submit">เพิ่มคะแนน</button>
                     </td>
 
 
