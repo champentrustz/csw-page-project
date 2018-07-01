@@ -94,7 +94,7 @@ function display_timetype($status){
         <tbody>
 
         <?php
-        $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_status = 1 ORDER BY tb_ruletype_score asc, tb_ruletype_id asc";
+        $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_status = 1 and tb_ruletype_type = 'DEDUCT' ORDER BY tb_ruletype_score asc, tb_ruletype_id asc";
         $result_rule_type = mysqli_query($conn, $sql_rule_type);
         $i = 0;
 
@@ -176,7 +176,7 @@ function display_timetype($status){
         let name =  $( "#rule-name-add" ).val();
         let score =  $( "#rule-score-add" ).val();
 
-        const resp = await fetch('https://www.csw.ac.th/csw_api/add_deduction_ruletype.php', {
+        const resp = await fetch('https://www.csw.ac.th/csw_api/add_ruletype.php', {
             method: 'post',
             headers: {
                 Accept: 'application/json',
@@ -184,6 +184,7 @@ function display_timetype($status){
             body: JSON.stringify({
                 ruletype_name :  name,
                 ruletype_score :  score,
+                ruletype_type :  'DEDUCT',
             }),
         });
 
@@ -196,7 +197,7 @@ function display_timetype($status){
 <script>
     async function deleteRuleType(id) {
 
-        const resp = await fetch('https://www.csw.ac.th/csw_api/delete_deduction_ruletype.php', {
+        const resp = await fetch('https://www.csw.ac.th/csw_api/delete_ruletype.php', {
             method: 'post',
             headers: {
                 Accept: 'application/json',
@@ -217,7 +218,7 @@ function display_timetype($status){
         let name =  $( "#rule-name-"+id ).val();
         let score =  $( "#rule-score-"+id ).val();
 
-        const resp = await fetch('https://www.csw.ac.th/csw_api/update_deduction_ruletype.php', {
+        const resp = await fetch('https://www.csw.ac.th/csw_api/update_ruletype.php', {
             method: 'post',
             headers: {
                 Accept: 'application/json',

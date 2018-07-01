@@ -568,7 +568,7 @@ function display_timetype($status){
                                         <select name="ruletype" class="form-control show-font" style="font-size:17px;" id="rule" required>
                                             <option value="" class="show-font">เลือกพฤติกรรม</option>
                                             <?php
-                                            $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_status = 1 order by  tb_ruletype_score asc,tb_ruletype_id asc";
+                                            $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_status = 1 and tb_ruletype_type = 'DEDUCT' order by  tb_ruletype_score asc,tb_ruletype_id asc";
                                             $result_rule_type = mysqli_query($conn, $sql_rule_type);
 
                                             while ($row_ruletype = mysqli_fetch_assoc($result_rule_type)) {
