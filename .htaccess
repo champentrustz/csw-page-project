@@ -2,15 +2,15 @@
     RewriteEngine On
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule late/login ./late/login.php
+    RewriteRule late2/login ./late2/login.php
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule late/main ./late/main.php
+    RewriteRule late2/main ./late2/main.php
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule late/report ./late/report.php
+    RewriteRule late2/report ./late2/report.php
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
@@ -30,11 +30,11 @@
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule rule/sms ./rule/sms.php
+    RewriteRule rule/sms-late ./rule/sms-late.php
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
-    RewriteRule rule/student-score ./rule/student-score.php
+    RewriteRule rule/sms ./rule/sms.php
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
@@ -42,7 +42,21 @@
 
     RewriteCond %{SCRIPT_FILENAME} !-d
     RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteRule rule/student-score ./rule/student-score.php
+
+   
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
     RewriteRule rule/view-detail ./rule/view-detail.php
+
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteRule rule/manage-deduction-criteria ./rule/manage-deduction-criteria.php
+
+
+    RewriteCond %{SCRIPT_FILENAME} !-d
+    RewriteCond %{SCRIPT_FILENAME} !-f
+    RewriteRule rule/manage-increase-criteria ./rule/manage-increase-criteria.php
 
 
 
