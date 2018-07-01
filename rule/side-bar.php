@@ -42,15 +42,42 @@ include '../config_db.php';
                 </a>
             </li>
 
+            <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/manage-deduction-criteria' || $host == 'www.csw.ac.th/information/online_checkin/rule/manage-increase-criteria'
+                || $host == 'csw.ac.th/information/online_checkin/rule/manage-deduction-criteria' || $host == 'csw.ac.th/information/online_checkin/rule/manage-increase-criteria')echo 'active open'?>">
+                <a class="menu-link active" href="#">
+                    <span class="icon ti-receipt"></span>
+                    <span class="title" style="font-size: 16px">เกณฑ์ความประพฤติ</span>
+                    <span class="arrow"></span>
+                </a>
+                <ul class="menu-submenu">
+                    <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/manage-deduction-criteria' || $host == 'csw.ac.th/information/online_checkin/rule/manage-deduction-criteria')echo 'active'?>">
+                        <a class="menu-link " href="manage-deduction-criteria">
+                            <span class="dot"></span>
+                            <span class="title">เกณฑ์ตัดคะแนนความประพฤติ</span>
+                        </a>
+                    </li>
+
+                    <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/manage-increase-criteria' || $host == 'csw.ac.th/information/online_checkin/rule/manage-increase-criteria')echo 'active'?>">
+                        <a class="menu-link" href="manage-increase-criteria">
+                            <span class="dot"></span>
+                            <span class="title">เกณฑ์เพิ่มคะแนนความประพฤติ</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </li>
+
             <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/student-score' || $host == 'www.csw.ac.th/information/online_checkin/rule/student-score-late'
-            || $host == 'csw.ac.th/information/online_checkin/rule/student-score' || $host == 'csw.ac.th/information/online_checkin/rule/student-score-late')echo 'active open'?>">
+            || $host == 'csw.ac.th/information/online_checkin/rule/student-score' || $host == 'csw.ac.th/information/online_checkin/rule/student-score-late'
+            || $host == 'www.csw.ac.th/information/online_checkin/rule/view-detail' || $host == 'csw.ac.th/information/online_checkin/rule/view-detail')echo 'active open'?>">
                 <a class="menu-link active" href="#">
                     <span class="icon ti-star"></span>
                     <span class="title" style="font-size: 16px">คะแนนความประพฤติ</span>
                     <span class="arrow"></span>
                 </a>
                 <ul class="menu-submenu">
-                    <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/student-score' || $host == 'csw.ac.th/information/online_checkin/rule/student-score')echo 'active'?>">
+                    <li class="menu-item <?php if($host == 'www.csw.ac.th/information/online_checkin/rule/student-score' || $host == 'csw.ac.th/information/online_checkin/rule/student-score'
+                    || $host == 'www.csw.ac.th/information/online_checkin/rule/view-detail' || $host == 'csw.ac.th/information/online_checkin/rule/view-detail')echo 'active'?>">
                         <a class="menu-link " href="student-score">
                             <span class="dot"></span>
                             <span class="title">คะแนนความประพฤติทั้งหมด</span>
