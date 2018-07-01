@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2fccf6ef-2630-46d0-810d-5f4d75b2f09b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rule/manage-deduction-criteria.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rule/manage-increase-criteria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/manage-deduction-criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/manage-deduction-criteria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/tb_deduction_criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/tb_deduction_criteria.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +15,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tb_rule.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/tb_rule.php">
+      <file leaf-file-name="tb_late.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rule/tb_late.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="66" selection-start-line="65" selection-start-column="62" selection-end-line="65" selection-end-column="66" />
+            <state relative-caret-position="204">
+              <caret line="37" column="2" lean-forward="true" selection-end-line="166" />
             </state>
           </provider>
         </entry>
@@ -26,8 +27,8 @@
       <file leaf-file-name="deduction-score.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/deduction-score.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="499" column="46" lean-forward="true" selection-start-line="499" selection-start-column="46" selection-end-line="499" selection-end-column="46" />
+            <state>
+              <caret line="559" column="121" lean-forward="true" selection-start-line="559" selection-start-column="121" selection-end-line="559" selection-end-column="121" />
             </state>
           </provider>
         </entry>
@@ -35,8 +36,8 @@
       <file leaf-file-name="side-bar.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/side-bar.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="60" column="66" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="66" />
+            <state relative-caret-position="273">
+              <caret line="60" column="75" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -50,52 +51,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="40" column="69" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="69" />
+            <state relative-caret-position="272">
+              <caret line="58" column="77" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tb_deduction_criteria.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rule/tb_deduction_criteria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="164">
+              <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+              <folding>
+                <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog-modal.html" pinned="false" current-in-tab="false">
+        <entry file="file://D:/The Admin-responsive-bootstrap-4-admin-dashboard-webapp-template/TheAdmin - v1.0.2/theme/src/uikit/dialog-modal.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="1084" column="40" selection-start-line="1084" selection-start-column="23" selection-end-line="1084" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tb_increase_criteria.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rule/tb_increase_criteria.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rule/main.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="21" column="31" selection-end-line="291" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="manage-deduction-criteria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="tb_late.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/late/tb_late.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1547">
-              <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="report.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/late/report.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" selection-start-line="88" selection-end-line="88" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="report_tb_late.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/late/report_tb_late.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2261">
-              <caret line="133" column="28" selection-start-line="127" selection-start-column="16" selection-end-line="133" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tb_student_score.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1105">
-              <caret line="65" column="70" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="70" />
+            <state relative-caret-position="-272">
+              <caret line="177" column="8" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -111,11 +121,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>convert</find>
-      <find>title</find>
-      <find>localhost</find>
-      <find>local</find>
-      <find>select</find>
       <find>score</find>
       <find>place</find>
       <find>rule</find>
@@ -141,6 +146,11 @@
       <find>tb_rule</find>
       <find>page</find>
       <find>tb_ruletype</find>
+      <find>view-detail</find>
+      <find>ruletype</find>
+      <find>log</find>
+      <find>Default</find>
+      <find>Most basic sample</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -178,7 +188,6 @@
         <option value="$PROJECT_DIR$/rule/tb_rule.php" />
         <option value="$PROJECT_DIR$/rule/view-detail.php" />
         <option value="$PROJECT_DIR$/rule/tb_student_score.php" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/rule/tb_student_score-late.php" />
         <option value="$PROJECT_DIR$/rule/student-score-late.php" />
         <option value="$PROJECT_DIR$/rule/tb_student_score_late.php" />
@@ -192,8 +201,11 @@
         <option value="$PROJECT_DIR$/rule/modal-student-detail.php" />
         <option value="D:/The Admin-responsive-bootstrap-4-admin-dashboard-webapp-template/TheAdmin - v1.0.2/theme/src/uikit/dialog-modal.html" />
         <option value="$PROJECT_DIR$/rule/tb_late.php" />
-        <option value="$PROJECT_DIR$/rule/deduction-score.php" />
         <option value="$PROJECT_DIR$/rule/side-bar.php" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/rule/deduction-score.php" />
+        <option value="$PROJECT_DIR$/rule/manage-deduction-criteria.php" />
+        <option value="$PROJECT_DIR$/rule/tb_deduction_criteria.php" />
       </list>
     </option>
   </component>
@@ -252,14 +264,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\MAMP\htdocs\csw_page\late" />
-      <recent name="C:\MAMP\htdocs\csw_page" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\MAMP\htdocs\csw_page\rule" />
       <recent name="C:\MAMP\htdocs\csw_page" />
       <recent name="C:\MAMP\htdocs\csw_page\late" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\csw_page\late" />
+      <recent name="C:\MAMP\htdocs\csw_page" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -298,18 +310,18 @@
       <workItem from="1529858576086" duration="5384000" />
       <workItem from="1529923712787" duration="118000" />
       <workItem from="1530176856956" duration="179000" />
-      <workItem from="1530446561856" duration="1538000" />
+      <workItem from="1530446561856" duration="4987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="135791000" />
+    <option name="totallyTimeSpent" value="139240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2963259" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2963259" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -318,7 +330,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -369,8 +381,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rule/report_tb_late.php" />
-    <entry file="file://$PROJECT_DIR$/rule/search_student.php" />
     <entry file="file://D:/MAMP/htdocs/php/check/function-edit-check.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -444,13 +454,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="207" column="154" selection-start-line="207" selection-start-column="154" selection-end-line="207" selection-end-column="154" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/main.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -543,13 +546,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://D:/The Admin-responsive-bootstrap-4-admin-dashboard-webapp-template/TheAdmin - v1.0.2/theme/src/uikit/dialog-modal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="1130" column="21" selection-start-line="1130" selection-start-column="21" selection-end-line="1130" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rule/modal-student-detail.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/view_student_result.php" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/function.php" />
@@ -564,13 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/tb_late.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="47" column="72" selection-start-line="47" selection-start-column="68" selection-end-line="47" selection-end-column="72" />
         </state>
       </provider>
     </entry>
@@ -609,23 +598,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rule/deduction-score.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="499" column="46" lean-forward="true" selection-start-line="499" selection-start-column="46" selection-end-line="499" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/side-bar.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="60" column="66" selection-start-line="60" selection-start-column="58" selection-end-line="60" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rule/manage-increase-criteria.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -633,10 +605,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rule/side-bar.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="60" column="75" selection-start-line="60" selection-start-column="51" selection-end-line="60" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="40" column="69" lean-forward="true" selection-start-line="38" selection-start-column="4" selection-end-line="40" selection-end-column="69" />
+        <state relative-caret-position="272">
+          <caret line="58" column="77" selection-start-line="58" selection-start-column="77" selection-end-line="58" selection-end-column="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/tb_increase_criteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/main.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="21" column="31" selection-end-line="291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/deduction-score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="559" column="121" lean-forward="true" selection-start-line="559" selection-start-column="121" selection-end-line="559" selection-end-column="121" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-272">
+          <caret line="177" column="8" lean-forward="true" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/tb_late.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="37" column="2" lean-forward="true" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/The Admin-responsive-bootstrap-4-admin-dashboard-webapp-template/TheAdmin - v1.0.2/theme/src/uikit/dialog-modal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="1084" column="40" selection-start-line="1084" selection-start-column="23" selection-end-line="1084" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/tb_deduction_criteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="107" column="32" selection-start-line="107" selection-start-column="32" selection-end-line="107" selection-end-column="32" />
+          <folding>
+            <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#0;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#label#0;n#div#1;n#form#0;n#div#1;n#div#0;n#div#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
