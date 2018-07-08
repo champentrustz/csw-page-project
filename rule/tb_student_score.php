@@ -103,7 +103,14 @@ $date_day = date("Y-m-d");
                     $sum_score += $row_rule_again['tb_rule_score'];
                 }
 
-                $real_score = 100 - $sum_score;
+                $sql_add_score_rule = "SELECT * FROM tb_add_rule_score WHERE student_code = '".$row_rule['tb_student_code']."' and semester = '".$semester."' and year = '".$year."' and status = 1";
+                $result_add_score_rule = mysqli_query($conn, $sql_add_score_rule);
+                $sum_add_score = 0;
+                while($row_add_score_rule = mysqli_fetch_assoc($result_add_score_rule)){
+                    $sum_add_score += $row_add_score_rule['score'];
+                }
+
+                $real_score = (100 - $sum_score) + $sum_add_score;
 
                 ?>
                 <tr style="font-size: 16px">
@@ -125,11 +132,138 @@ $date_day = date("Y-m-d");
                     </td>
 
                     <td class="text-center">
-                        <button class="btn btn-success btn-sm show-font" data-provide="tooltip" title="รายละเอียด" type="submit">เพิ่มคะแนน</button>
+                        <button class="btn btn-success btn-sm show-font" data-toggle="modal" data-target="#modal-add-score<?php print $i?>">เพิ่มคะแนน</button>
                     </td>
 
-
                 </tr>
+
+                <div class="modal fade" id="modal-add-score<?php print $i?>" tabindex="-1">
+
+                    <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h4 class="modal-title show-font" id="myModalLabel">เพิ่มคะแนนความประพฤติ</h4>
+                                <button type="button" class="close" data-dismiss="modal">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body bg-secondary">
+                                <div class="card ">
+                                    <h4 class="card-title show-font"><span class="icon ti-user"></span> ข้อมูลนักเรียน</h4>
+                                    <div class="card-body">
+
+                                        <div class="sidebar-profile" id="profile">
+                                            <img class="avatar " src="../file_student/small/<?php print $row_student['tb_student_code']?>.jpg" >
+
+                                            <div class="profile-info">
+
+
+                                                        <h6 class="show-font text-default">ชื่อ : <?php print $row_student['tb_student_name']?> <?php print $row_student['tb_student_sname']?></h6>
+
+
+
+                                                        <h6 class="show-font text-default">รหัสนักเรียน : <?php print $row_student['tb_student_code']?></h6>
+
+
+
+                                                        <h6 class="show-font text-default">ชั้น : <?php print $row_room['tb_room_name']?></h6>
+
+
+
+                                                        <h6 class="show-font text-default">เบอร์ผู้ปกครอง : <?php print $row_student['tb_student_phone']?></h6>
+
+
+
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+
+                                <div class="card ">
+                                    <h4 class="card-title show-font"><span class="icon ti-star"></span> เพิ่มคะแนนความประพฤติ</h4>
+                                    <div class="card-body">
+
+
+                                                    <h6 class="show-font text-default" style="margin-top: 10px">พฤติกรรม</h6>
+
+
+
+                                                    <select name="ruletype" class="form-control show-font" style="font-size:17px;" id="rule" required>
+                                                        <option value="" class="show-font">เลือกพฤติกรรม</option>
+                                                        <?php
+                                                        $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_status = 1 and tb_ruletype_type = 'INCREASE' order by  tb_ruletype_score asc,tb_ruletype_id asc";
+                                                        $result_rule_type = mysqli_query($conn, $sql_rule_type);
+
+                                                        while ($row_ruletype = mysqli_fetch_assoc($result_rule_type)) {
+                                                            ?>
+                                                            <option class="show-font" value="<?php echo $row_ruletype['tb_ruletype_id'];?>"><?php echo $row_ruletype['tb_ruletype_name'];?> (<? print $row_ruletype['tb_ruletype_score']?> คะแนน)</option>
+                                                            <?php
+                                                        }
+                                                        ?>
+                                                    </select>
+
+                                                    <div id="check-ruletype">
+
+                                                    </div>
+
+
+
+                                                    <h6 class="show-font text-default" style="margin-top: 10px">คะแนนที่ตัด</h6>
+
+                                                    <input class="form-control" type="number" min="0" id="score" name="score" required>
+
+                                                    <div id="check-score">
+
+                                                    </div>
+
+
+                                                    <input class="form-control" type="hidden" name="studentCode" required value="<?php print $row_student['tb_student_code']?>">
+
+
+
+                                                    <h6 class="show-font text-default" style="margin-top: 10px">สถานที่</h6>
+
+                                                    <input class="form-control show-font" type="text" name="place" id="place">
+
+
+
+                                                    <h6 class="show-font text-default" style="margin-top: 10px">ภาคเรียน</h6>
+
+                                                    <input class="form-control" type="text" name="semester" value="<?php print $semester?>-<?php print $year+543?>" required readonly>
+
+
+
+
+                                                    <h6 class="show-font text-default" style="margin-top: 10px">วันที่</h6>
+
+                                                    <input class="form-control" type="text" name="date" data-provide="datepicker" data-date-format="yyyy-mm-dd" value="<?php print $date_day?>" id="date" required>
+
+
+
+
+
+                                    </div>
+
+
+
+
+                                </div>
+
+
+
+
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-success show-font" style="font-size: 16px" onclick="addRuleScore('<?php print $i?>','<?php print $row_student['tb_student_code']?>')">บันทึก</button>
+                                <button type="button" class="btn btn-danger show-font" style="font-size: 16px" data-dismiss="modal">ปิด</button>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
                 <?php
             }
         }
@@ -143,7 +277,65 @@ $date_day = date("Y-m-d");
 </div>
 <br/>
 
+<script>
+    async function addRuleScore(i,student_code) {
 
+
+
+        let admin_id =  '<?php print $_SESSION['admin_id']?>'
+        let ruletype =  $( "#rule" ).val();
+        let score =  $( "#score" ).val();
+        let place =  $( "#place" ).val();
+        let date =  $( "#date" ).val();
+        let id = i;
+
+
+        if(score != '' && ruletype != '' ) {
+
+            const resp = await fetch('https://www.csw.ac.th/csw_api/add_rule_score.php', {
+                method: 'post',
+                headers: {
+                    Accept: 'application/json',
+                },
+                body: JSON.stringify({
+                    admin_id: admin_id,
+                    studentCode: student_code,
+                    ruletype: ruletype,
+                    score: score,
+                    place: place,
+                    date: date,
+                }),
+            });
+
+            $('.modal-backdrop').remove();
+            window.location.reload();
+
+
+        }
+        else if(score == '' && ruletype != '' ) {
+
+            $( "#check-score" ).html('<label class="text-danger">โปรกรอกคะแนน</label>');
+            $( "#check-ruletype" ).html('');
+
+        }
+
+        else if(score != '' && ruletype == '' ) {
+
+            $( "#check-ruletype" ).html('<label class="text-danger">โปรดเลือกเกณฑ์</label>');
+            $( "#check-score" ).html('');
+
+        }
+        else{
+            $( "#check-ruletype" ).html('<label class="text-danger">โปรดเลือกเกณฑ์</label>');
+            $( "#check-score" ).html('<label class="text-danger">โปรกรอกคะแนน</label>');
+        }
+
+
+
+    }
+
+
+</script>
 
 <script>
     async function changeStatus(number,id) {

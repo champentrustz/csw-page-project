@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2fccf6ef-2630-46d0-810d-5f4d75b2f09b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rule/deduction-score.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/deduction-score.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rule/manage-increase-criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/manage-increase-criteria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rule/tb_deduction_criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/tb_deduction_criteria.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rule/tb_increase_criteria.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/tb_increase_criteria.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rule/tb_student_score.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/tb_student_score.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,43 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tb_rule.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/tb_rule.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3043">
-              <caret line="179" column="5" selection-start-line="161" selection-start-column="7" selection-end-line="179" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="tb_deduction_criteria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/tb_deduction_criteria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function_login.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/function_login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="42" selection-end-line="38" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="function_send_sms_late.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/function_send_sms_late.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file leaf-file-name="main.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/main.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3077">
-              <caret line="181" column="128" lean-forward="true" selection-start-line="181" selection-start-column="24" selection-end-line="181" selection-end-column="128" />
+            <state relative-caret-position="17">
+              <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -61,8 +26,8 @@
       <file leaf-file-name="manage-deduction-criteria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3">
-              <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+            <state relative-caret-position="1394">
+              <caret line="198" selection-start-line="198" selection-end-line="198" />
             </state>
           </provider>
         </entry>
@@ -70,8 +35,8 @@
       <file leaf-file-name="manage-increase-criteria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/manage-increase-criteria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-244">
-              <caret line="146" column="22" lean-forward="true" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
+            <state relative-caret-position="2400">
+              <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -79,17 +44,55 @@
       <file leaf-file-name="tb_increase_criteria.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/tb_increase_criteria.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+            <state relative-caret-position="277">
+              <caret line="240" column="75" lean-forward="true" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="deduction-score.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="deduction-score.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/deduction-score.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="570" column="148" selection-start-line="570" selection-start-column="148" selection-end-line="570" selection-end-column="148" />
+            <state relative-caret-position="119">
+              <caret line="558" column="82" lean-forward="true" selection-start-line="558" selection-start-column="24" selection-end-line="558" selection-end-column="82" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="student-score.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rule/student-score.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2125">
+              <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="135" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tb_student_score.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="70">
+              <caret line="310" column="41" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="41" />
+              <folding>
+                <element signature="e#5691#5698#1#HTML" expanded="true" />
+                <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h6#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_deduction_score.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rule/function_deduction_score.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="158" selection-start-line="158" selection-end-line="164" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -114,16 +117,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>deduction_late</find>
-      <find>date_day</find>
-      <find>date</find>
-      <find>deduction</find>
-      <find>ขาดเรียน</find>
-      <find>ข้อมูลการ</find>
-      <find>autocomplete_student</find>
-      <find>jsonArra</find>
-      <find>student-code</find>
-      <find>ตัด</find>
       <find>search</find>
       <find>date_search</find>
       <find>Examples using data attributes</find>
@@ -144,6 +137,16 @@
       <find>value</find>
       <find>data-dis</find>
       <find>log</find>
+      <find>modal</find>
+      <find>$row_student</find>
+      <find>studentCode</find>
+      <find>place</find>
+      <find>score</find>
+      <find>form</find>
+      <find>addRuleScore</find>
+      <find>modal-add-score</find>
+      <find>modal-open</find>
+      <find>data-b</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/late/function_check_late.php" />
         <option value="D:/MAMP/htdocs/php/survey/survey.php" />
         <option value="$PROJECT_DIR$/late/report_late.php" />
         <option value="$PROJECT_DIR$/.httaccess" />
@@ -180,7 +182,6 @@
         <option value="$PROJECT_DIR$/late/tb_late.php" />
         <option value="$PROJECT_DIR$/rule/tb_rule.php" />
         <option value="$PROJECT_DIR$/rule/view-detail.php" />
-        <option value="$PROJECT_DIR$/rule/tb_student_score.php" />
         <option value="$PROJECT_DIR$/rule/tb_student_score-late.php" />
         <option value="$PROJECT_DIR$/rule/student-score-late.php" />
         <option value="$PROJECT_DIR$/rule/tb_student_score_late.php" />
@@ -202,6 +203,9 @@
         <option value="$PROJECT_DIR$/rule/tb_increase_criteria.php" />
         <option value="$PROJECT_DIR$/rule/tb_deduction_criteria.php" />
         <option value="$PROJECT_DIR$/rule/deduction-score.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/display_student_view.php" />
+        <option value="$PROJECT_DIR$/rule/function_add_score.php" />
+        <option value="$PROJECT_DIR$/rule/tb_student_score.php" />
       </list>
     </option>
   </component>
@@ -307,18 +311,19 @@
       <workItem from="1529923712787" duration="118000" />
       <workItem from="1530176856956" duration="179000" />
       <workItem from="1530446561856" duration="11427000" />
-      <workItem from="1530461467727" duration="876000" />
+      <workItem from="1530461467727" duration="2814000" />
+      <workItem from="1531073306226" duration="7394000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146556000" />
+    <option name="totallyTimeSpent" value="155888000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1312" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1314" height="784" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30111822" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30622008" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -342,19 +347,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25358853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Terminal" order="9" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -378,20 +383,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rule/function_logout.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="59" selection-start-line="4" selection-start-column="59" selection-end-line="4" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rule/sms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -451,13 +442,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rule/student-score.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="135" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rule/tb_student_score_late.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -472,7 +456,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/display_student_view.php" />
     <entry file="file://$PROJECT_DIR$/../csw_api/show_student.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -520,13 +503,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" selection-start-line="11" selection-end-line="64" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1105">
-          <caret line="65" column="70" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="70" />
         </state>
       </provider>
     </entry>
@@ -579,13 +555,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rule/function_deduction_score.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3434">
-          <caret line="202" selection-end-line="219" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rule/function_send_sms_late.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -618,38 +587,79 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rule/tb_increase_criteria.php">
+    <entry file="file://$PROJECT_DIR$/rule/student-score.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="47" column="86" selection-start-line="47" selection-start-column="86" selection-end-line="47" selection-end-column="86" />
+        <state relative-caret-position="2125">
+          <caret line="125" column="4" selection-start-line="125" selection-start-column="4" selection-end-line="135" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/display_check.php" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/display_student_view.php" />
+    <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1394">
+          <caret line="198" selection-start-line="198" selection-end-line="198" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rule/manage-increase-criteria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-244">
-          <caret line="146" column="22" lean-forward="true" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/manage-deduction-criteria.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3">
-          <caret line="198" lean-forward="true" selection-start-line="198" selection-end-line="198" />
+        <state relative-caret-position="2400">
+          <caret line="146" column="22" selection-start-line="146" selection-start-column="22" selection-end-line="146" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rule/tb_deduction_criteria.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="92" column="16" lean-forward="true" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        <state relative-caret-position="17">
+          <caret line="92" column="16" selection-start-line="92" selection-start-column="16" selection-end-line="92" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/function_deduction_score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="158" selection-start-line="158" selection-end-line="164" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/function_add_score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rule/deduction-score.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="570" column="148" selection-start-line="570" selection-start-column="148" selection-end-line="570" selection-end-column="148" />
+        <state relative-caret-position="119">
+          <caret line="558" column="82" lean-forward="true" selection-start-line="558" selection-start-column="24" selection-end-line="558" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/tb_increase_criteria.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="240" column="75" lean-forward="true" selection-start-line="240" selection-start-column="8" selection-end-line="240" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="70">
+          <caret line="310" column="41" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="41" />
+          <folding>
+            <element signature="e#5691#5698#1#HTML" expanded="true" />
+            <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#1;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#2;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#3;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h6#4;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#div#2;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
