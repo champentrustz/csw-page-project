@@ -58,15 +58,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="view-detail.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="view-detail.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/rule/view-detail.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="308" column="80" selection-start-line="308" selection-start-column="80" selection-end-line="308" selection-end-column="80" />
+            <state relative-caret-position="249">
+              <caret line="299" column="72" selection-start-line="299" selection-start-column="72" selection-end-line="299" selection-end-column="72" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view_student_result.php" pinned="false" current-in-tab="true">
+        <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/view_student_result.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-263">
+              <caret line="351" column="38" selection-start-line="351" selection-start-column="28" selection-end-line="351" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -94,15 +103,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2686">
               <caret line="158" selection-start-line="158" selection-end-line="164" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="student-score-late.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rule/student-score-late.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3179">
-              <caret line="187" column="97" selection-start-line="187" selection-start-column="97" selection-end-line="187" selection-end-column="97" />
             </state>
           </provider>
         </entry>
@@ -156,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="D:/MAMP/htdocs/php/survey/survey.php" />
         <option value="$PROJECT_DIR$/late/report_late.php" />
         <option value="$PROJECT_DIR$/.httaccess" />
         <option value="$PROJECT_DIR$/late/function_logout.php" />
@@ -207,6 +206,7 @@
         <option value="$PROJECT_DIR$/rule/tb_student_score.php" />
         <option value="$PROJECT_DIR$/rule/deduction-score.php" />
         <option value="$PROJECT_DIR$/rule/view-detail.php" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-3/view_student_result.php" />
       </list>
     </option>
   </component>
@@ -314,12 +314,12 @@
       <workItem from="1530446561856" duration="11427000" />
       <workItem from="1530461467727" duration="2814000" />
       <workItem from="1531073306226" duration="7662000" />
-      <workItem from="1531145443096" duration="1096000" />
+      <workItem from="1531145443096" duration="2329000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157252000" />
+    <option name="totallyTimeSpent" value="158485000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1314" height="784" extended-state="6" />
@@ -385,14 +385,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/rule/sms.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rule/index.html" />
     <entry file="file://$PROJECT_DIR$/index.html" />
     <entry file="file://$PROJECT_DIR$/rule/function_send_sms.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -641,14 +633,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/display_student_view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="368" column="7" selection-start-line="368" selection-start-column="7" selection-end-line="368" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/rule/view-detail.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="308" column="80" selection-start-line="308" selection-start-column="80" selection-end-line="308" selection-end-column="80" />
+        <state relative-caret-position="249">
+          <caret line="299" column="72" selection-start-line="299" selection-start-column="72" selection-end-line="299" selection-end-column="72" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#tr#0;n#tbody#0;n#table#0;n#div#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#1;n#main#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-3/view_student_result.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-263">
+          <caret line="351" column="38" selection-start-line="351" selection-start-column="28" selection-end-line="351" selection-end-column="38" />
         </state>
       </provider>
     </entry>

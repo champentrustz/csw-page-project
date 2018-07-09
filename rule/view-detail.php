@@ -297,8 +297,8 @@ function convertDateThai($data){
                                     <thead>
                                     <tr>
                                         <th  class="text-center">ที่</th>
-                                        <th  class="text-center ">สาเหตุ</th>
-                                        <th  class="text-center">คะแนนที่ถูกตัด</th>
+                                        <th  class="text-center ">เหตุผล</th>
+                                        <th  class="text-center">คะแนนที่ถูกเพิ่ม</th>
                                         <th  class="text-center ">วันที่</th>
 
                                     </tr>
