@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2fccf6ef-2630-46d0-810d-5f4d75b2f09b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rule/tb_student_score.php" beforeDir="false" afterPath="$PROJECT_DIR$/rule/tb_student_score.php" afterDir="false" />
-    </list>
+    <list default="true" id="2fccf6ef-2630-46d0-810d-5f4d75b2f09b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,8 +68,8 @@
       <file leaf-file-name="tb_student_score.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="310" column="41" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="41" />
+            <state relative-caret-position="148">
+              <caret line="105" column="185" selection-start-line="105" selection-start-column="185" selection-end-line="105" selection-end-column="185" />
               <folding>
                 <element signature="e#5691#5698#1#HTML" expanded="true" />
                 <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />
@@ -312,18 +309,17 @@
       <workItem from="1530176856956" duration="179000" />
       <workItem from="1530446561856" duration="11427000" />
       <workItem from="1530461467727" duration="2814000" />
-      <workItem from="1531073306226" duration="7394000" />
+      <workItem from="1531073306226" duration="7662000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155888000" />
+    <option name="totallyTimeSpent" value="156156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1314" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30622008" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30622008" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -332,7 +328,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32972136" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -647,8 +643,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/rule/tb_student_score.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="310" column="41" selection-start-line="310" selection-start-column="41" selection-end-line="310" selection-end-column="41" />
+        <state relative-caret-position="148">
+          <caret line="105" column="185" selection-start-line="105" selection-start-column="185" selection-end-line="105" selection-end-column="185" />
           <folding>
             <element signature="e#5691#5698#1#HTML" expanded="true" />
             <element signature="n#style#0;n#h6#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#form#0;n#div#0;n#tbody#0;n#table#0;n#div#0;n#!!top" expanded="true" />

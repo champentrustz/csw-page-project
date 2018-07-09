@@ -336,7 +336,15 @@ function display_timetype($status){
                     $sum_score += $row_rule_again['tb_rule_score'];
                 }
 
-                $real_score = 100 - $sum_score;
+                $sql_add_score_rule = "SELECT * FROM tb_add_rule_score WHERE student_code = '".$row_rule['tb_student_code']."' and semester = '".$semester."' and year = '".$year."' and status = 1";
+                $result_add_score_rule = mysqli_query($conn, $sql_add_score_rule);
+                $sum_add_score = 0;
+                while($row_add_score_rule = mysqli_fetch_assoc($result_add_score_rule)){
+                    $sum_add_score += $row_add_score_rule['score'];
+                }
+
+
+                $real_score = (100 - $sum_score) + $sum_add_score;
 
                 ?>
 
