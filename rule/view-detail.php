@@ -175,7 +175,7 @@ function convertDateThai($data){
         <div class="col-md-12">
             <h2 class="header-title">
                 <p></p>
-                <span class="text-info">รายละเอียดการถูกตัดคะแนนความประพฤติ</span>
+                <span class="text-info">รายละเอียดคะแนนความประพฤติ</span>
                 <p></p>
                 <!--                <small class="show-font">โรงเรียนชำนาญสามัคคีวิทยา</small>-->
             </h2 class="header-title ">
@@ -235,7 +235,7 @@ function convertDateThai($data){
                 <div class="col-md-8">
                     <div class="card">
 
-                            <h4 class="card-title show-font"><span class="icon ti-close"></span> รายละเอียด</h4>
+                            <h4 class="card-title show-font"><span class="icon ti-close"></span> รายละเอียดการถูกตัดคะแนนความประพฤติ</h4>
 
                         <div class="card-body">
                         <div class="table-responsive-lg" data-page-length="100" style="font-size: 16px">
@@ -286,7 +286,62 @@ function convertDateThai($data){
                         </div>
                     </div>
                     </div>
+
+                    <div class="card">
+
+                        <h4 class="card-title show-font"><span class="icon ti-plus"></span> รายละเอียดการเพิ่มคะแนนความประพฤติ</h4>
+
+                        <div class="card-body">
+                            <div class="table-responsive-lg" data-page-length="100" style="font-size: 16px">
+                                <table class="table table-lg table-hover table-bordered" data-page-length='50' data-provide="datatables">
+                                    <thead>
+                                    <tr>
+                                        <th  class="text-center">ที่</th>
+                                        <th  class="text-center ">สาเหตุ</th>
+                                        <th  class="text-center">คะแนนที่ถูกตัด</th>
+                                        <th  class="text-center ">วันที่</th>
+
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+
+                                    <?php
+                                    $sql_rule = "SELECT * FROM tb_add_rule_score WHERE student_code = '".$studentCode."' and semester = '".$semester."' and year = '".$year."' and status = 1";
+                                    $result_rule = mysqli_query($conn, $sql_rule);
+                                    $i = 0;
+
+                                    $count = mysqli_num_rows($result_rule);
+                                    if($count > 0) {
+                                        while ($row_rule = mysqli_fetch_assoc($result_rule)) {
+
+                                            $i++;
+                                            $sql_rule_type = "SELECT * FROM tb_ruletypes WHERE tb_ruletype_id = '" . $row_rule['ruletype_id'] . "'";
+                                            $result_rule_type = mysqli_query($conn, $sql_rule_type);
+                                            $row_rule_type = mysqli_fetch_assoc($result_rule_type);
+
+                                            ?>
+                                            <tr style="font-size: 14px">
+                                                <td class="text-center"><?php print $i ?></td>
+                                                <td class="text-center"><?php print $row_rule_type['tb_ruletype_name']?></td>
+                                                <td class="text-center"><?php print $row_rule['score']?> คะแนน</td>
+                                                <td class="text-center"><?php print convertDateThai($row_rule['date'])?></td>
+
+                                            </tr>
+                                            <?php
+                                        }
+                                    }
+
+                                    ?>
+
+
+                                    </tbody>
+
+                                </table>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
 
 
         </div>
